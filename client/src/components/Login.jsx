@@ -6,12 +6,17 @@ import {AiFillGithub} from 'react-icons/ai';
 
 
 function Login() {
+
+  const github = () =>{
+    window.open("http://localhost:5000/auth/github",
+    )
+  }
   return (
     <Nav className="flex-column">
         <Button variant="light"> 
         Sign in with Google <FcGoogle/>
         </Button>
-        <Button variant="light"> 
+        <Button variant="light" onClick={github}> 
             Sign in with Github <AiFillGithub/>
         </Button>
     </Nav>
