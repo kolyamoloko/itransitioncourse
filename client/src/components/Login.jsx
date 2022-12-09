@@ -13,7 +13,7 @@ function Login() {
   }
   
   const google = () =>{
-    window.open("https://backend-production-3201.up.railway.app/auth/github", "_sellf"
+    window.open("https://backend-production-3201.up.railway.app/auth/google", "_sellf"
     )
   }
 
