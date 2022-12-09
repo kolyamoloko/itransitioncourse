@@ -8,12 +8,12 @@ import {AiFillGithub} from 'react-icons/ai';
 function Login() {
 
   const github = () =>{
-    window.open("https://backend-production-3201.up.railway.app/auth/github",
+    window.open("https://backend-production-3201.up.railway.app/auth/github", "_self"
     )
   }
   
   const google = () =>{
-    window.open("https://backend-production-3201.up.railway.app/auth/github",
+    window.open("https://backend-production-3201.up.railway.app/auth/github", "_sellf"
     )
   }
 
